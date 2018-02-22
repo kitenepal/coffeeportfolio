@@ -594,18 +594,24 @@ main.nav-is-visible {
   }
 }
 /* line 1, ../sass/module/_artical.scss */
-.testimonial_subtitle {
-  color: #0aaa7a;
-  font-size: 12px;
+.articals {
+  padding: 20px;
+  background-color: #e9e9e9;
 }
 
 /* line 5, ../sass/module/_artical.scss */
-.testimonial_btn {
-  background-color: #373d4b !important;
-  color: #fff !important;
+.testimonial_subtitle {
+  color: #6b3a1a;
+  font-size: 12px;
 }
 
 /* line 9, ../sass/module/_artical.scss */
+.testimonial_btn {
+  background-color: #6b3a1a !important;
+  color: #fff !important;
+}
+
+/* line 13, ../sass/module/_artical.scss */
 .seprator {
   height: 2px;
   width: 56px;
@@ -613,6 +619,18 @@ main.nav-is-visible {
   margin: 7px 0 10px 0;
 }
 
+/* line 19, ../sass/module/_artical.scss */
+.testimonial_para {
+  font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  /* line 24, ../sass/module/_artical.scss */
+  .articals {
+    margin: 20px;
+    padding: 20px;
+  }
+}
 /* line 4, ../sass/module/_doctor.scss */
 .fa-spin-fast {
   -webkit-animation: fa-spin-fast 0.2s infinite linear;

@@ -1,9 +1,13 @@
+.articals{
+  padding: 20px;
+  background-color: #e9e9e9;
+}
 .testimonial_subtitle{
-    color: #0aaa7a;
+    color: $primary-color;
     font-size: 12px;
 }
   .testimonial_btn{
-    background-color: #373d4b !important;
+    background-color: $primary-color !important;
     color: #fff !important;
  }
  .seprator {
@@ -11,4 +15,14 @@
     width: 56px;
     background-color: #0aaa7a;
     margin: 7px 0 10px 0;
+}
+.testimonial_para{
+  font-size: 20px;
+}
+
+@media (max-width: 900px){
+  .articals{
+  margin: 20px;
+  padding: 20px;
+}
 }
