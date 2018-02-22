@@ -42,10 +42,10 @@ var slideshow = (function(window, undefined) {
    * @type {Array}
    */
   var slides = [
-    'https://static.dezeen.com/uploads/2017/02/sheffield-childrens-hospital-morag-myerscough-interior-design-uk_dezeen_2364_hero.gif',
-    'https://financialtribune.com/sites/default/files/field/image/17january/12_makeover.jpg',
-    'http://www.medicahospitals.in/wp-content/gallery/gammahospital-img/gamma-hospital-img1.jpg',
-    'https://my.clevelandclinic.org/-/scassets/images/org/locations/hillcrest-hospital/hillcrest-hospital-hallway.ashx'
+    'https://images.unsplash.com/photo-1498653672627-b4bb7c982505?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2f0999a2c71cb301d224172d3927b1f0&auto=format&fit=crop&w=1500&q=80',
+    'https://images.unsplash.com/photo-1512151004335-d5b6c2ff7e12?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0586bd3c820b0c53f417fbce0758673d&auto=format&fit=crop&w=1498&q=80',
+    'https://images.unsplash.com/photo-1454438992604-4a8e59768a5a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=518fe65ae4479aa7814c181cdc4bd990&auto=format&fit=crop&w=1050&q=80',
+    'https://images.unsplash.com/photo-1487537082456-f17a54ffeaf0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ece6114003233ee2a595dca2f12793ca&auto=format&fit=crop&w=1500&q=80'
   ];
 
   /**

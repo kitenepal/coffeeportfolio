@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Squada+One");
 /* line 1, ../sass/base/_base.scss */
 body {
-  background-color: #338D35 !important;
+  background-color: #6b3a1a !important;
 }
 
 /* line 5, ../sass/base/_base.scss */
@@ -17,7 +17,7 @@ body {
 /* line 12, ../sass/base/_base.scss */
 .heading--size {
   font-size: 5.8em;
-  text-shadow: 0px 0px 4px #096f64;
+  text-shadow: 0px 0px 4px #6f4837;
 }
 
 /* line 18, ../sass/base/_base.scss */
@@ -593,6 +593,26 @@ main.nav-is-visible {
     transform: translateY(170px);
   }
 }
+/* line 1, ../sass/module/_artical.scss */
+.testimonial_subtitle {
+  color: #0aaa7a;
+  font-size: 12px;
+}
+
+/* line 5, ../sass/module/_artical.scss */
+.testimonial_btn {
+  background-color: #373d4b !important;
+  color: #fff !important;
+}
+
+/* line 9, ../sass/module/_artical.scss */
+.seprator {
+  height: 2px;
+  width: 56px;
+  background-color: #0aaa7a;
+  margin: 7px 0 10px 0;
+}
+
 /* line 4, ../sass/module/_doctor.scss */
 .fa-spin-fast {
   -webkit-animation: fa-spin-fast 0.2s infinite linear;
@@ -772,7 +792,7 @@ main.nav-is-visible {
   text-decoration: none;
   outline: 0;
   font-size: bold;
-  color: #338D35;
+  color: #6b3a1a;
 }
 
 /* line 154, ../sass/module/_doctor.scss */
@@ -946,13 +966,13 @@ main.nav-is-visible {
 
 /* line 291, ../sass/module/_doctor.scss */
 .material-card.Red h2 {
-  background-color: #096f64;
+  background-color: #6f4837;
 }
 
 /* line 294, ../sass/module/_doctor.scss */
 .material-card.Red h2:after {
-  border-top-color: #096f64;
-  border-right-color: #096f64;
+  border-top-color: #6f4837;
+  border-right-color: #6f4837;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
@@ -968,8 +988,8 @@ main.nav-is-visible {
 /* line 306, ../sass/module/_doctor.scss */
 .material-card.Red.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #096f64;
-  border-bottom-color: #096f64;
+  border-right-color: #6f4837;
+  border-bottom-color: #6f4837;
   border-left-color: transparent;
 }
 
@@ -983,17 +1003,17 @@ main.nav-is-visible {
 
 /* line 318, ../sass/module/_doctor.scss */
 .material-card.Red .mc-btn-action {
-  background-color: #096f64;
+  background-color: #6f4837;
 }
 
 /* line 321, ../sass/module/_doctor.scss */
 .material-card.Red .mc-btn-action:hover {
-  background-color: #096f64;
+  background-color: #6f4837;
 }
 
 /* line 324, ../sass/module/_doctor.scss */
 .material-card.Red .mc-footer a {
-  background-color: #096f64;
+  background-color: #6f4837;
 }
 
 /* line 327, ../sass/module/_doctor.scss */
@@ -1296,7 +1316,7 @@ header {
   width: 70%;
   /*100%*/
   height: 94%;
-  background: #096f64;
+  background: #6f4837;
   transition: .5s;
   transform-origin: left;
   transform: perspective(2000px) rotateY(-90deg);
@@ -1311,7 +1331,7 @@ header {
     width: 70%;
     /*100%*/
     height: 95%;
-    background: #096f64;
+    background: #6f4837;
     transition: .5s;
     transform-origin: left;
     transform: perspective(2000px) rotateY(-90deg);
@@ -1472,7 +1492,7 @@ header {
 
 /* line 1, ../sass/module/_footer.scss */
 footer {
-  background-color: #096f64;
+  background-color: #6f4837;
   color: #fff;
 }
 /* line 4, ../sass/module/_footer.scss */
@@ -1627,11 +1647,11 @@ a.socialIcon:hover, .socialHoverClass {
     margin: 10px 0px;
   }
 }
-/* line 28, ../sass/module/_modal.scss */
+/* line 27, ../sass/module/_modal.scss */
 .content-title a {
   transition: 0.3s;
 }
-/* line 31, ../sass/module/_modal.scss */
+/* line 30, ../sass/module/_modal.scss */
 .content-title a:hover, .content-title a:focus, .content-title a:active {
   color: white;
 }
