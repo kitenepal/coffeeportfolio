@@ -17,7 +17,7 @@ body {
 /* line 12, ../sass/base/_base.scss */
 .heading--size {
   font-size: 5.8em;
-  text-shadow: 0px 0px 4px #6f4837;
+  text-shadow: 0px 0px 4px #311b0e;
 }
 
 /* line 18, ../sass/base/_base.scss */
@@ -48,8 +48,9 @@ body {
 .heroslider .card p {
   font-size: 16px !important;
 }
-/* line 13, ../sass/module/_headerslider.scss */
-.heroslider .card .paragraph-size {
+
+/* line 14, ../sass/module/_headerslider.scss */
+.card .paragraph-size {
   font-size: 14px !important;
 }
 
@@ -593,25 +594,26 @@ main.nav-is-visible {
     transform: translateY(170px);
   }
 }
-/* line 1, ../sass/module/_artical.scss */
-.articals {
+/* line 2, ../sass/module/_artical.scss */
+.articals--content {
   padding: 20px;
   background-color: #e9e9e9;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-/* line 5, ../sass/module/_artical.scss */
+/* line 9, ../sass/module/_artical.scss */
 .testimonial_subtitle {
   color: #6b3a1a;
   font-size: 12px;
 }
 
-/* line 9, ../sass/module/_artical.scss */
+/* line 13, ../sass/module/_artical.scss */
 .testimonial_btn {
   background-color: #6b3a1a !important;
   color: #fff !important;
 }
 
-/* line 13, ../sass/module/_artical.scss */
+/* line 17, ../sass/module/_artical.scss */
 .seprator {
   height: 2px;
   width: 56px;
@@ -619,16 +621,16 @@ main.nav-is-visible {
   margin: 7px 0 10px 0;
 }
 
-/* line 19, ../sass/module/_artical.scss */
+/* line 23, ../sass/module/_artical.scss */
 .testimonial_para {
   font-size: 20px;
 }
 
 @media (max-width: 900px) {
-  /* line 24, ../sass/module/_artical.scss */
-  .articals {
+  /* line 28, ../sass/module/_artical.scss */
+  .articals--content {
     margin: 20px;
-    padding: 20px;
+    padding: 40px;
   }
 }
 /* line 4, ../sass/module/_doctor.scss */
@@ -764,7 +766,7 @@ main.nav-is-visible {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  border: 5px solid;
+  border: 2px solid;
   width: 54px;
   height: 54px;
   line-height: 44px;
@@ -984,13 +986,13 @@ main.nav-is-visible {
 
 /* line 291, ../sass/module/_doctor.scss */
 .material-card.Red h2 {
-  background-color: #6f4837;
+  background-color: #311b0e;
 }
 
 /* line 294, ../sass/module/_doctor.scss */
 .material-card.Red h2:after {
-  border-top-color: #6f4837;
-  border-right-color: #6f4837;
+  border-top-color: #311b0e;
+  border-right-color: #311b0e;
   border-bottom-color: transparent;
   border-left-color: transparent;
 }
@@ -1006,8 +1008,8 @@ main.nav-is-visible {
 /* line 306, ../sass/module/_doctor.scss */
 .material-card.Red.mc-active h2:before {
   border-top-color: transparent;
-  border-right-color: #6f4837;
-  border-bottom-color: #6f4837;
+  border-right-color: #311b0e;
+  border-bottom-color: #311b0e;
   border-left-color: transparent;
 }
 
@@ -1021,17 +1023,17 @@ main.nav-is-visible {
 
 /* line 318, ../sass/module/_doctor.scss */
 .material-card.Red .mc-btn-action {
-  background-color: #6f4837;
+  background-color: #311b0e;
 }
 
 /* line 321, ../sass/module/_doctor.scss */
 .material-card.Red .mc-btn-action:hover {
-  background-color: #6f4837;
+  background-color: #311b0e;
 }
 
 /* line 324, ../sass/module/_doctor.scss */
 .material-card.Red .mc-footer a {
-  background-color: #6f4837;
+  background-color: #311b0e;
 }
 
 /* line 327, ../sass/module/_doctor.scss */
@@ -1334,7 +1336,7 @@ header {
   width: 70%;
   /*100%*/
   height: 94%;
-  background: #6f4837;
+  background: #311b0e;
   transition: .5s;
   transform-origin: left;
   transform: perspective(2000px) rotateY(-90deg);
@@ -1349,7 +1351,7 @@ header {
     width: 70%;
     /*100%*/
     height: 95%;
-    background: #6f4837;
+    background: #311b0e;
     transition: .5s;
     transform-origin: left;
     transform: perspective(2000px) rotateY(-90deg);
@@ -1510,7 +1512,7 @@ header {
 
 /* line 1, ../sass/module/_footer.scss */
 footer {
-  background-color: #6f4837;
+  background-color: #311b0e;
   color: #fff;
 }
 /* line 4, ../sass/module/_footer.scss */
